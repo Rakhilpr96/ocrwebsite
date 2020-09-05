@@ -1,0 +1,27 @@
+h1 {
+  color: rgb(62, 44, 105);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#form {
+  margin: auto;
+}
+
+#convertbtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#resultbox {
+  padding: 20px 50px;
+}
+
+#resultheading {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}

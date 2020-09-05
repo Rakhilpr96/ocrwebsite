@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OCR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Image to Text Converter</h1>
+    </div>
+    <table id="form">
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_table }}
+    </table>
+    <div id="convertbtn">
+      <button type="submit">Convert</button>
+    </div>
+    </form>
+  </body>
+</html>
