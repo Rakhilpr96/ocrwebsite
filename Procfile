@@ -1,1 +1,1 @@
-web: gunicorn imagetotext:app
+web: gunicorn imagetotxt:app
