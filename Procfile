@@ -1,1 +1,1 @@
-web: gunicorn imagetotxt:app
+web: gunicorn imagetotxt.wsgi
