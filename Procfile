@@ -1,1 +1,1 @@
-web: gunicorn imagetotxt.wsgi
+web: gunicorn imagetotxt.wsgi --log-file -
